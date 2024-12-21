@@ -2,6 +2,11 @@
 
 Video and essay series explaining basic concepts that you never learned about or skimmed over in school.   
 
+## Credit
+
+- [tufte-css](https://github.com/edwardtufte/tufte-css)
+- [textured-paper](https://www.transparenttextures.com/textured-paper.html)
+
 ## Development Server
 
 ```bash
