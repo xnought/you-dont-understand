@@ -1,12 +1,9 @@
 <script lang="ts">
-	import Numbers from "./articles/Numbers.svelte";
 	import { Router, Route, link } from "svelte-routing";
 	import Title from "./lib/Title.svelte";
+	import { articles } from "./articles/metadata";
 
 	const basepath = "you-dont-understand";
-	const articles = [
-		{ title: "Numbers", link: "numbers", component: Numbers },
-	];
 </script>
 
 <Router {basepath}>
