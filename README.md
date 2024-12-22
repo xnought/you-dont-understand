@@ -4,7 +4,7 @@ Video and essay series explaining basic concepts that you never learned about or
 
 ## Credit
 
-- [tufte-css](https://github.com/edwardtufte/tufte-css)
+- [tufte-css](https://github.com/edwardtufte/tufte-css) and [live site](https://edwardtufte.github.io/tufte-css/).
 - [textured-paper](https://www.transparenttextures.com/textured-paper.html)
 
 ## Development Server
