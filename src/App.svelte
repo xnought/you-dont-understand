@@ -15,7 +15,11 @@
 			<section>
 				<ul>
 					{#each articles as a}
-						<li><a href={a.link} use:link>{a.title}</a></li>
+						<li>
+							<p class="subtitle">
+								<a href={a.link} use:link>{a.title}</a>
+							</p>
+						</li>
 					{/each}
 				</ul>
 			</section>
