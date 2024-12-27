@@ -81,11 +81,11 @@
 			🐶🦊. Starting to feel weird yet?</Sidenote
 		>, I can say that <KaTeX tex="🐒🐸🐦= 🐒🦊🦊 + 🐸🦊 + 🐦" displayMode />
 		or in that same scientific notation as <KaTeX
-			tex={String.raw`🐒🐸🐦= 🐒\times 🐶🦊^{🐰} + 🐸\times 🐶🦊^{🐶} + 🐦\times🐶🦊^{🦊}`}
+			tex={String.raw`🐒🐸🐦= 🐒\times 🐶🦊^{🐰} + 🐸\times 🐶🦊^{🐶} + 🐦\times🐶🦊^{🦊}.`}
 			displayMode
-		/>. I don't know about you, but I'm lost. And emojis added and
-		multiplied and raised to the powers of other emojis feels soooo weird.
-		But when I tell you that
+		/> I don't know about you, but I'm lost. And emojis added and multiplied
+		and raised to the powers of other emojis feels soooo weird. But when I tell
+		you that
 		<KaTeX tex="🐒🐸🐦 = 645" />, it then starts to make sense how big it
 		is.
 	</p>
