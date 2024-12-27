@@ -1,23 +1,18 @@
 <script>
 	import KaTeX from "../lib/KaTeX.svelte";
 	import Sidenote from "../lib/Sidenote.svelte";
-	import SIdenote from "../lib/Sidenote.svelte";
 </script>
 
 <section>
-	<blockquote>
-		<p>
-			Young man, in mathematics you don't understand things. You just get
-			used to them.
-		</p>
-		<footer>John Von Neumann</footer>
-	</blockquote>
-	<p>Numbers are weird, and with small changes they entirely feel foreign.</p>
+	<p>
+		The Symbols we use for numbers are weird, and with small changes they
+		entirely feel foreign.
+	</p>
 	<p>Let me convince you.</p>
 </section>
 
 <section>
-	<h2>Symbols</h2>
+	<h2>Emoji Symbols</h2>
 	<p>
 		I'm sure you're familiar with the ten digits you use every day: <KaTeX
 			tex={String.raw` 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.`}
@@ -109,34 +104,17 @@
 </section>
 
 <section>
-	<h2>Zero and Operations</h2>
+	<h2>Conclusion</h2>
 	<p>
-		If I have not convinced you that numbers are weird yet, let's just look
-		at the normal digits you know and love again. Don't you think it is a
-		bit arbitrary that the next number after <KaTeX tex="9" /> was <KaTeX
-			tex="10"
-		/>? Why not <KaTeX tex="00" />? Or wrap back in reverse with <KaTeX
-			tex="01"
-		/>? Or even Or wrap back in reverse with <KaTeX tex="89" /> or <KaTeX
-			tex="98"
-		/>?
+		The symbols are weird, the number of symbols are weird<Sidenote id="num"
+			>Go convert decimal to binary and it'll still feel weird.</Sidenote
+		>, and things get even weirder when you consider past the integer and
+		specifically with the number zero. I'll get to these at some point.
 	</p>
 	<p>
-		Generally speaking, it could have been any of these and it's a bit
-		arbitrary. Although it isn't arbitrary that <KaTeX tex="00" /> and <KaTeX
-			tex="01"
-		/> in our current system simply mean <KaTeX tex="00 = 0" /> and <KaTeX
-			tex="01 = 1"
-		/>. In other words, any <KaTeX tex="0" /> on the left side are ignored if
-		they are leading. Which in itself is weird since <KaTeX
-			tex="0000000000000000000 = 0"
-		/>. It seems like we're giving up symbols that could be used to
-		represent other numbers!
-	</p>
-	<p>
-		The symbol that denotes zero with our modern numbers seems has a secret
-		service level guard. Zero is actually a later addition historically (no
-		pun intended). I need to do a deeper dive into why this makes sense, but
-		let me gnaw on this for a while... TO BE CONTINUED...
+		But you can see the incredible power of creating a way to enumerate
+		distinct symbols for numbers by reusing some base symbols. If we just
+		used tallying for numbers we'd be done for and we probably would not
+		have invented zero, negative numbers, fractions, and so on.
 	</p>
 </section>

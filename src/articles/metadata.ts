@@ -1,5 +1,9 @@
-import Numbers from "./Numbers.svelte";
+import SymbolsForNumbers from "./SymbolsForNumbers.svelte";
 
 export const articles = [
-	{ title: "Numbers", link: "numbers", component: Numbers },
+	{
+		title: "Number Symbols",
+		link: "number-symbols",
+		component: SymbolsForNumbers,
+	},
 ];
